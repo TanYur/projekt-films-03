@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1c1b21;
+    color:#927c7c;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container{
+    color:#FAFAFA;
+    font-size: 55px;
+    border: 10px solid #6c38cc;
+    display: flex;
+    margin-bottom: 50px;
+}
+.item{
+    background: #232228;
+    border: 1px solid sandybrown;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 300px;
+   
+    
+}
+.item-1{
+    /* короткая запись свойств flex: flex-grow, flex-shrink, flex-basis */
+    /* flex: 1 1 300px; */
+    /* развернутая запись свойств flex */
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.item-2{
+    flex-grow: 5;
+    flex-shrink: 5;
+}
+p{
+    margin: 10px;
+}

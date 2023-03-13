@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css" />
+  <title>basic</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="item item-1">Item 1</div>
+    <div class="item item-2">Item 2</div>
+  </div>
+
+  <p>flex-grow касается распределения долей свободного пространсва. Помимо пространства заданного элементу через
+    свойство flex-basic.</p>
+  <p> В данном случае flex-basic 200px. Это значит, оба
+    элемета займут 200px + 200px = 400px. А оставшееся свободное пространство распределится согласно параметрам, заданным в
+    свойстве flex-grow.</p>
+    <p>flex-shrink касается распределения пространсва, когда сумма ширин элементов по свойству flex-basic превышает ширину пространсва вообще. В этом случае элемент с свойством с наименьшим значением (дефолтное значение: 1) будет сжиматься меньше. Элемет со значением установленным в свойстве flex-shrink большим 1, будет сжиматься в больших пропорциях, относительно элемента, у которого свойсво flex-shrink имеет меньшее значение.</p>
+
+
+  <script src="./script/script.js"></script>
+
+
+
+</body>
+
+</html>
